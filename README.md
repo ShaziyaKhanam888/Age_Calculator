@@ -51,4 +51,5 @@ index.html: Contains the structure of the webpage.
 style.css: Contains styles for the webpage.
 
 script.js: Contains the JavaScript logic for age calculation.
+check out here: https://my-site-calculator.netlify.app/
 
