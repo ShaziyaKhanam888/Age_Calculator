@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(#AA5486,#432E54) ;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+.main-container {
+    height: 400px;
+    width: 430px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px 3px pink;
+    border-radius: 6px;
+    margin: 40px auto;   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h5{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+ 
+#birthday {
+    padding: 4px;
+    border: 1.2px solid black;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+#btn {
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #B7B7B7;
+    color: white;
+}
+@media screen and(max-width: 400px) {
+      .main-container {
+        height: 200px;
+        width: 150px;
+      }
+}
